@@ -4,7 +4,37 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .container {
   width: 1200px;
   margin: auto;
+}
+
+header .logo {
+  text-align: center;
+  margin: 50px 0;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+header ul a {
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+header ul a.active {
+  background-color: #b2e5fc;
+}
+
+main {
+  margin-top: 20px;
+  background-image: url("/images/fondo-pag-speciali.jpg");
 }
