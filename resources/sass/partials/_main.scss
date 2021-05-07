@@ -1,4 +1,18 @@
 main {
     margin-top: 20px;
     background-image: url("/images/fondo-pag-speciali.jpg");
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        .card {
+            height: 240px;
+            width: calc((100% / 3) - 10px);
+            margin: 5px;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
 }
