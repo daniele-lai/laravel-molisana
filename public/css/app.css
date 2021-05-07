@@ -35,8 +35,16 @@ header ul a.active {
 }
 
 main {
+  padding: 70px 0;
   margin-top: 20px;
   background-image: url("/images/fondo-pag-speciali.jpg");
+}
+main h2 {
+  text-transform: uppercase;
+  color: #002d73;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0;
 }
 main .cards {
   display: flex;
