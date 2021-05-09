@@ -63,5 +63,40 @@ main .cards .card img {
 
 footer {
   padding-top: 100px;
+  padding-bottom: 150px;
+  background-image: url("/images/footer-montagne-bottom.jpg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+footer .container {
   display: flex;
+}
+footer .container .copyright {
+  width: 38%;
+  color: #848d9b;
+  font-weight: 600;
+  font-size: 18px;
+}
+footer .container .menu_footer {
+  width: 62%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+footer .container .menu_footer h3 {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #848d9b;
+  margin-bottom: 10px;
+}
+footer .container .menu_footer ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+footer .container .menu_footer ul a {
+  text-decoration: none;
+  color: #848d9b;
+  font-weight: 600;
+  font-size: 18px;
 }
