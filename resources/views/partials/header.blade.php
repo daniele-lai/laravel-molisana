@@ -5,9 +5,9 @@
         </div>
         <nav>
             <ul>
-                <li><a class="active" href="{{ route('home')}}">Home</a></li>
-                <li><a href="{{ route('products', ['id'=>1]) }}">Prodotti</a></li>
-                <li><a href="{{ route('news')}}">News</a></li>
+                <li><a class="{{Route::getCurrentRoute()->getName() == 'home' ? 'active' : '' }}" href="{{ route('home')}}">Home</a></li>
+                <li><a class="{{Route::getCurrentRoute()->getName() == 'products' ? 'active' : '' }}" href="{{ route('products', ['id'=>0]) }}">Prodotti</a></li>
+                <li><a class="{{Route::getCurrentRoute()->getName() == 'news' ? 'active' : '' }}" href="{{ route('news')}}">News</a></li>
             </ul>
         </nav>
     </div>
