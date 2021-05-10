@@ -19,6 +19,9 @@ header {
             &.active {
                 background-color: $secondary_blue;
             }
+            &:hover {
+                background-color: $secondary_blue;
+            }
         }
     }
 }

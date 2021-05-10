@@ -33,6 +33,9 @@ header ul a {
 header ul a.active {
   background-color: #b2e5fc;
 }
+header ul a:hover {
+  background-color: #b2e5fc;
+}
 
 main {
   padding: 70px 0;

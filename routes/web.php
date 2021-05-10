@@ -45,6 +45,10 @@ Route::get('/products/{id}', function ($id) {
 
     $data = config('paste');
 
+    if ($id >= count($data)) {
+        abort(404);
+    }
+
     $formato = $data[$id];
 
     return view('products', [
